@@ -27,6 +27,11 @@ class Mined_minds < Minitest::Test
 	def test_27_to_mined
 		assert_equal("mined", new_array[26])
 	end
-
+	def test_50_to_minds
+		assert_equal("minds", new_array[49])
+	end
+	def test_20_to_minds
+		assert_equal("minds", new_array[19])
+	end
 
 end
