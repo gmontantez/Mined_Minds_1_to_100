@@ -11,11 +11,11 @@ class Mined_minds < Minitest::Test
 	end
 
 	def test_1_to_100
-		assert_equal([1..100], full_array)
+		assert_equal((1..100).to_a, full_array)
 	end
 
 	def test_3_to_mined
-		assert_equal("mined", full_array)
+		assert_equal("mined", new_array[2])
 	end
-	
+
 end
