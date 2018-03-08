@@ -15,7 +15,8 @@ def new_array
 			"mined"
 		elsif x % 5 == 0
 			"minds"
-
+		elsif x == 11
+			"class"
 		else
 			x
 		end
